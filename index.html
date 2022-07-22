@@ -19,26 +19,33 @@
   <header class="site-header">
     <div class="site-header-container container">
       <a class="site-logo" href="index.html">
-        <img src="img/logo-n24.svg" alt="Лого сайта N24" width="276" height="45">
+        <img class="site-logo-img" src="img/logo-n24.svg" alt="Лого сайта N24" width="276" height="45" srcset="img/logo-n24.svg 1x, img/logo-n24@2x.svg 2x">
       </a>
 
       <div class="exchange-rates">
-        <span>&#36 10137.2</span>
-        <span>&#8381 138.26</span>
+        <ul class="exchange-rates-list">
+          <li class="exchange-rates-item">
+            <span class="exchange-rates-value"><b class="exchange-rates-icon">&#36</b> 10137.2</span>
+          </li>
+          <li class="exchange-rates-list">
+            <span class="exchange-rates-value"><b class="exchange-rates-icon">&#8381</b> 138.26</span>
+          </li>
+        </ul>
       </div>
 
       <div class="search-system">
         <a class="search-link" href="#">
-          <img class="search-img" src="img/search.png" alt="Search icon" width="20" height="20"><span>Поиск</span>
+          <img class="search-img" src="img/search.svg" alt="Search icon" width="20" height="20"><span>Поиск</span>
         </a>
       </div>
 
       <div class="site-language">
         <ul class="site-language-list">
-          <li class="site-languageitem"><a class="site-language-link" href="#">Уз</a></li>
-          <li class="site-languageitem"><a class="site-language-link" href="#">Ру</a></li>
+          <li class="uz-language site-language-item"><a class="site-language-link" href="#">Уз</a></li>
+          <li class="ru-language site-language-item"><a class="site-language-link" href="#">Ру</a></li>
         </ul>
       </div>
+      <a class="main-link" href="#">Войти</a>
     </div>
   </header>
 
