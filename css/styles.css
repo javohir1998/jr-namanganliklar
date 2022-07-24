@@ -21,6 +21,32 @@ body {
   color: #4a4b4c;
 }
 
+/* MAIN-LINK */
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
 
 /* CONTAINER */
 .container {
@@ -34,51 +60,69 @@ body {
 
 /* HEADER-CLASSES */
 .site-header {
+}
+
+.site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0;
   background-color: #f6f6f6;
 }
 
-.site-header-container {
+.site-header-top-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
 }
 
 .site-logo {
+  display: flex;
+  padding: 8px 6px;
   margin-right: 35px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.site-logo-img {
+  width: 264px;
+  height: 28px;
 }
 
 
 /* EXCHANGE-CLASSES */
-.exchange-rates {
-  padding: 0;
-  margin: 0;
-}
-
 .exchange-rates-list {
   display: flex;
   align-items: center;
-  font-family: "Rubik", "Arial", sans-serif;
-  font-size: 16px;
   padding: 0;
   margin: 0;
+  margin-right: auto;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
   line-height: 1.2;
   list-style: none;
-}
-
-.exchange-rates-item:not(:last-child) {
-  padding-right: 25px;
 }
 
 .exchange-rates-icon {
   color: #2959CE;
 }
 
+.exchange-rates-item:not(:last-child) {
+  padding-right: 25px;
+}
+
 
 /* SEARCH-CLASSES */
+.search-system {
+  margin-right: 25px;
+}
+
 .search-link {
   display: flex;
   align-items: center;
@@ -100,7 +144,7 @@ body {
 
 
 /* LANGUAGE-CLASSES */
-.site-language-list {
+/* .site-language-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,10 +161,30 @@ body {
   width: 70px;
   height: 36px;
   background-color: #DCE6FF;
+} */
+
+.site-language {
+  display: flex;
+  padding: 3px;
+  margin-right: 25px;
+  border-radius: 39px;
+  background-color: #dce6ff;
 }
 
 .site-language-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 30px;
+  color: #a6a6a6;
+  text-align: center;
   text-decoration: none;
+}
+
+.site-language-link-active {
+  background-color: #fff;
+  color: #222;
 }
 
 .uz-language {
@@ -136,20 +200,6 @@ color: #a6a6a6;
 
 .site-language-item:not(:last-child) {
   margin-right: 15px;
-}
-
-/* MAIN-LINK */
-.main-link {
-  padding: 13px 20px;
-  margin: 0;
-  border-radius: 10px;
-  font-family: "Rubik", "Arial", sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  text-decoration: none;
-  line-height: 1.2;
-  background-color: #7296ec;
-  color: #fff;
 }
 
 
