@@ -21,6 +21,17 @@ body {
   color: #4a4b4c;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* OUTLINE STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
+
 /* MAIN-LINK */
 .button {
   display: inline-block;
@@ -76,7 +87,7 @@ body {
 
 .site-logo {
   display: flex;
-  padding: 8px 6px;
+  padding: 9px 6px;
   margin-right: 35px;
   border-radius: 7px;
   background-color: #fff;
@@ -110,7 +121,7 @@ body {
 }
 
 .exchange-rates-icon {
-  color: #2959CE;
+  color: #2959ce;
 }
 
 .exchange-rates-item:not(:last-child) {
